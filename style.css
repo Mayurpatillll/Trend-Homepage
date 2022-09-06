@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Orbitron;
+}
+
+.container {
+    width: 75vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+
+/* Navbar section */
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 0px;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+}
+
+.list li {
+    list-style-type: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.list li:hover {
+    color: rgb(214, 92, 16);
+}
+
+.list li:nth-child(1) {
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.nav-button {
+    padding: 5px 20px;
+    margin-left: 10px;
+    border-radius: 7px;
+    border: 2px solid black
+}
+
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-container {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.square {
+    position: relative;
+    top: 140px;
+    left: 40px;
+}
+
+.person-img {
+    position: absolute;
+    top: 130px;
+    left: 187px;
+    width: 25%;
+}
+
+.star img {
+    position: absolute;
+    right: 200px;
+    width: 50px;
+    height: 50px;
+}
+
+.globe img {
+    position: absolute;
+    right: 620px;
+    width: 50px;
+    height: 50px;
+}
+
+
+/*Hero Container Section*/
+
+.hero-container-right {
+    text-align: center;
+    margin-top: 150px;
+    padding-left: 100px;
+}
+
+.hero-heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+/*Hero Description Section*/
+
+.hero-description {
+    font-size: 14px;
+    font-family: Montserrat;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.button-email {
+    padding: 5px 20px;
+    margin-left: 10px;
+    border-radius: 7px;
+    border: 2px solid black
+}
+
+.button-join {
+    padding: 5px 20px;
+    color: #fff;
+    background-color: #000000;
+    border-radius: 7px;
+    border: 2px solid black;
+    margin: 20px 0px;
+}
+
+.contact-heading {
+    font-size: 18px;
+    font-family: Montserrat;
+    margin: 20px 0px;
+}
+
+.icons img {
+    padding: 0px 8px;
+}
+
+.star2 img {
+    position: absolute;
+    left: 700px;
+    bottom: 150px;
+    width: 50px;
+    height: 50px;
+}
